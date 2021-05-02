@@ -24,4 +24,12 @@
 * The easiest way of centering the elements is to tap into a property called 'text-align' and that property has to be set inside the parent container(inside top container or the body). // It won't work if we change the width of the block element as it will move to left of the parent container.
 * Well the other way of centering the elements is by using margin. So there is a value called "auto" which when applied will center the element either vertically or horizontally. Eg. if we want to center horizontally - margin: (top-bottom)0 (left-right)auto;
 
+## Font-Family
+* By default browser will have serif, that gives little feet to sans-serif
+* font embedding - head over to fonts.google.com
+
+## Font sizing
+* static - px
+* dynamic - (%, em) depends on parent's size and applies on top of the parent's size, rem (It refers to the root em) (doesn't depend on parent size, it ignores all of the parent's settings for the font size and just set it relative to the root and applies it's own size.) (the beauty of rem is that it doesn't get effected by upstream size changes and makes it easier to debug when sizing goes wrong.
+
 

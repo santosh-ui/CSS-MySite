@@ -20,4 +20,8 @@
 * left - if we set left property to 20px. the element'll move 20px right.
 * right - if we set right property to 20px. the element'll move 20px left.
 
+## Dark Art of Centering Elements with CSS
+* The easiest way of centering the elements is to tap into a property called 'text-align' and that property has to be set inside the parent container(inside top container or the body). // It won't work if we change the width of the block element as it will move to left of the parent container.
+* Well the other way of centering the elements is by using margin. So there is a value called "auto" which when applied will center the element either vertically or horizontally. Eg. if we want to center horizontally - margin: (top-bottom)0 (left-right)auto;
+
 
